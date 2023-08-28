@@ -33,7 +33,7 @@ export default class Download extends Component {
             isVisible: false,
             completedProgress: null
         }
-        this.socket = new WebSocket("ws://localhost:8081");
+        this.socket = new WebSocket("ws://https://ishidev-yt-downloader-jl8p-7anxe11t9-iamishtiaq98.vercel.app");
         this.socket.onopen = this.handleOpen;
         this.socket.onmessage = this.handleMessage;
         this.socket.onclose = this.handleClose;
