@@ -1,0 +1,99 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./styles/layout.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.ui.huge.image, .ui.huge.images .image, .ui.huge.images img, .ui.huge.images svg {
+    width: 100% !important;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-title .subtitle {
+  color: #fc6539;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 0 12px;
+  padding-left: 64px;
+  position: relative;
+}
+
+.section-title .subtitle::after {
+  background-color: #fc6539;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: calc(50% - -3px);
+  width: 60px;
+}
+
+.section-title .title.title-style {
+  margin-top: 39px;
+  position: relative;
+  z-index: 1;
+}
+.section-title .title {
+  font-size: 20px;
+  line-height: 1.25;
+  margin-bottom: 0;
+  width: 65%;
+}
+
+@media screen and(max-width: 590px) {
+    .section-title {
+        margin-bottom: 40px;
+      }
+      
+      .section-title .subtitle {
+        font-size: 18px !important;
+      }
+      
+      .section-title .subtitle::after {
+        width: 20px !important;
+      }
+      .section-title .subtitle {
+        font-size: 28px;
+      }
+      .section-title .subtitle::after {
+        background-color: #fc6539;
+        content: "";
+        height: 8px;
+        left: 0;
+        position: absolute;
+        top: calc(70% - -3px) !important;
+        width: 63px;
+      }
+      
+      .section-title .title.title-style {
+        margin-top: 39px;
+      }
+      .section-title .title {
+        font-size: 10px !important;
+        width: 85% !important;
+      }
+
+    
+}
+
+.section-title .title.title-style .img-shape {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    transform: translate(10%, -18%);
+    -webkit-transform: translate(10%, -18%);
+    -moz-transform: translate(10%, -18%);
+    -ms-transform: translate(10%, -18%);
+    -o-transform: translate(10%, -18%);
+  }
+  .img-shape {
+    width: 30%;
+  }
