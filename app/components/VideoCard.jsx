@@ -3,7 +3,7 @@ import { Image, Icon, Dimmer, Card, Header, Button, Label, Progress, Modal } fro
 import HDSvg from '../../public/hd.svg'
 import { formatNumber, formatFileSize, formatMimeType } from '../utils'
 import { Box, Grid } from '@mui/material';
-import "../../styles/layout.css"
+
 
 export default class VideoCard extends Component {
     state = {
