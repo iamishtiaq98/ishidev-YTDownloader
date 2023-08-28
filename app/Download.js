@@ -33,7 +33,7 @@ export default class Download extends Component {
             isVisible: false,
             completedProgress: null
         }
-        this.socket = new WebSocket("ws://localhost:8080");
+        this.socket = new WebSocket("ws://localhost:8081");
         this.socket.onopen = this.handleOpen;
         this.socket.onmessage = this.handleMessage;
         this.socket.onclose = this.handleClose;
